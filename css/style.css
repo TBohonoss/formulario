@@ -165,3 +165,84 @@ main .text {
     font-weight: 400;
     line-height: 21.79px;
 }
+
+main .textarea {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    padding-left: 3rem;
+}
+
+main .textarea label {
+    padding-bottom: 0.2rem;
+    padding-left: 0.1rem;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #9B9B9B;
+}
+
+main .textarea textarea {
+    width: 536.64px;
+    height: 78px;
+    left: 123px;
+    top: 681px;
+    background: #FFFFFF;
+    border: 1px solid #9B9B9B;
+    resize: none;
+}
+
+main .anexar {
+    display: flex;
+    padding-left: 3rem;
+    padding-top: 1rem;
+    width: 40rem;
+}
+
+main .curriculo {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #9B9B9B;
+    width: 6.5rem;
+}
+
+main .upload {
+    width: 118px;
+    height: 21px;
+    left: 213px;
+    top: 781px;
+    background-color: #C4C4C4;
+}
+
+main .upload label{
+    display: flex;
+    justify-content: center;
+    padding-top: 0.1rem;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+main .file {
+    display: none;
+}
+
+main .enviar {
+    padding-left: 3rem;
+    padding-top: 1.5rem;
+}
+
+main .enviar button {
+    width: 537px;
+    height: 33px;
+    left: 123px;
+    top: 824px;
+    background-color: #C2185B;
+    border: none;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
