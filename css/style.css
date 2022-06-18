@@ -9,6 +9,8 @@ body * {
     font-family: 'Open Sans', sans-serif, Helvetica, sans-serif;
 }
 
+/*=============================HEADER================================*/
+
 header nav {
     display: flex;
     justify-content: space-between;
@@ -36,6 +38,8 @@ header nav ul li a {
     line-height: 33px;
 }
 
+/*==========================MAIN=================================*/
+
 main .container {
     display: flex;
     width: 100%;
@@ -47,7 +51,7 @@ main form {
     flex-direction: column;
     width: 400vw;
     justify-content: center;
-    height: 70%;
+    padding-left: 4rem;
 }
 
 main form .titulo {
@@ -61,11 +65,6 @@ main form .titulo {
     padding-left: 3rem;
     padding-top: 3rem;
     height: 20vh;
-}
-
-main form div p {
-    display: flex;
-    flex-direction: column;
 }
 
 main form div h1 {
@@ -159,11 +158,16 @@ main .text {
     text-align: justify;
     justify-content: center;
     padding-top: 10rem;
-    padding-right: 5rem;
+    padding-right: 6rem;
     font-size: 16px;
     color: #575757;
     font-weight: 400;
     line-height: 21.79px;
+    width: 340vw;
+}
+
+main .text p {
+    padding-left: 2rem;
 }
 
 main .textarea {
@@ -223,6 +227,7 @@ main .upload label{
     font-size: 14px;
     line-height: 16px;
     color: #FFFFFF;
+    cursor: pointer;
 }
 
 main .file {
@@ -232,6 +237,7 @@ main .file {
 main .enviar {
     padding-left: 3rem;
     padding-top: 1.5rem;
+    padding-bottom: 4rem;
 }
 
 main .enviar button {
@@ -244,5 +250,53 @@ main .enviar button {
     font-weight: 700;
     font-size: 20px;
     line-height: 23px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+/*================================FOOTER============================*/
+
+footer * {
+    font-family: 'Open Sans', sans-serif, Helvetica, sans-serif;
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 248px;
+    background-color: #C2185B;
+}
+
+footer .text1 {
+    width: 255px;
+    height: 91px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+    text-align: justify;
+}
+
+footer .img {
+    padding-top: 1.5rem;
+    height: 123px;
+    width: 233px;
+}
+
+footer .container-2, .container-3 {
+    padding-top: 4.5rem;
+}
+
+footer .categorias, .institucional {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+
+footer .texto2, .texto3 {
+    font-size: 16px;
+    line-height: 24px;
     color: #FFFFFF;
 }
